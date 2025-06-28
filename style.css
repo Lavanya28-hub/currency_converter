@@ -1,0 +1,95 @@
+body{
+    font-family: "Roboto",sans-serif;
+}
+.container
+{
+    background-color: #f7fafc;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+    width: 100%;
+    max-width: 32rem;
+    margin: 0 auto;
+}
+.title{
+    font-size:1.875rem;
+    font-weight: bold;
+    color:blue;
+    text-align: center;
+    margin-bottom:1.5rem;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.label{
+    display:block;
+    font-size:0.875rem;
+    font-weight:500;
+    color:#4a5568;
+    margin-bottom: 0.5rem;
+}
+.input,
+.select
+{
+    appearance: none;
+    border-width: 1px;
+    border-color: #cbd5e0;
+    border-radius: 0.375rem;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.15s
+    ease-in-out,shadow-sm 0.15s ease-in-out;
+    background-color: #fff;
+    color: #2d3748;
+}
+.select{
+    background-image:url(https://www.freepik.com/free-vector/digital-money-transfer-technology-background_4025865.htm#fromView=keyword&page=1&position=1&uuid=5b5156f7-9087-436f-925d-882c95dac10c&query=Currency+Background);
+     padding-right: 2.5rem;
+}
+.button
+{
+    background-color: #4299e1;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius:0.375rem;
+    border:none;
+    cursor:pointer;
+    font-size: 1rem;
+    width: 100%;
+    transition: background-color 0.15s
+    ease-in-out,transform 0.15s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover
+{
+    background-color: #318ad2;
+}
+.button:active{
+    background-color: #2b8ad7;
+    transform: translateY(1px);
+}
+.result-container{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color:#000102;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    background-color: #edf2f7;
+    border: 1px solid #cbd5e0;
+
+}
+.error-message
+{
+    color: red;
+}
+.success-message
+{
+   color: green; 
+}
